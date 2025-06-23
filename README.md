@@ -36,6 +36,7 @@ Log out and log in
 sudo rm -rf /usr/local/share/plasma/plasmoids/org.kde.panel
 ```
 
+-------------------------------------------------------------------
 
 the icons animation is not part of this if you want it, it's here
 
