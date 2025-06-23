@@ -24,7 +24,7 @@ Create needed folder
 sudo mkdir -p /usr/local/share/plasma/plasmoids
 ```
 
-Copy org.kde.plasma.taskmanager folder
+Copy org.kde.panel folder
 
 ```bash
 sudo cp -r org.kde.panel /usr/local/share/plasma/plasmoids/
