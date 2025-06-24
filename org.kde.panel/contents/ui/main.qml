@@ -139,16 +139,17 @@ Plasmoid.backgroundHints: PlasmaCore.Types.NoBackground
         // Both will fallback to "standard" panel margins if the theme does not
         // define a normal or a thick margin.
      
-     Rectangle {
+Rectangle {
     id: customPanelBackground
     anchors.fill: parent
-    radius: 17 // Adjust for roundness
-    color: Qt.rgba(0, 0, 0, 0.2) // Transparent dark background
-    border.color: Qt.rgba(1, 1, 1, 0.2) // Subtle light border
-    border.width: 1
-    z: -1 // Ensure it's behind applets
-}
+    radius: Plasmoid.location === PlasmaCore.Types.TopEdge ? 15 : 15
+    color: Plasmoid.location === PlasmaCore.Types.TopEdge ? "transparent" : Qt.rgba(0.2, 0.2, 0.2, 0.3)
+    border.color: Plasmoid.location === PlasmaCore.Types.TopEdge ? "transparent" : Qt.rgba(1, 1, 1, 0.2)
+    border.width: Plasmoid.location === PlasmaCore.Types.TopEdge ? 0 : 1
+    z: -1
+   
 
+}
 
 
 
