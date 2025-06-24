@@ -1,7 +1,7 @@
 
 ![dark-transparent-panel](https://github.com/user-attachments/assets/b02daa83-6c7d-490f-b8d6-ab3c3d91a143)
 
-top panel is fully transparent
+top panel is fully transparent and bottom panel transparent with no blur
 
 https://github.com/user-attachments/assets/ddca3413-7e01-4900-a474-3a4891ea93c5
 
