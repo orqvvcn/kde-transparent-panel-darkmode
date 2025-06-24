@@ -3,6 +3,9 @@
 
 top panel is fully transparent and bottom panel transparent with no blur
 
+you can use 'KDE control station' widget, it's what is next on the right of the search icon on top panel
+
+
 https://github.com/user-attachments/assets/ddca3413-7e01-4900-a474-3a4891ea93c5
 
 
